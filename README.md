@@ -23,7 +23,7 @@ To achieve this goal, the team aims to understand the usage patterns of casual r
 5. Supporting visualizations and key findings
 6. Your top three recommendations based on your analysis
 
-### Busniess Task
+### Business Task
 - Design marketing strategies aimed at converting casual riders into annual members
 - I have been assigned the following question to answer, which will guide the future marketing program: **How do annual members and casual riders use Cyclistic bikes differently?**
 
