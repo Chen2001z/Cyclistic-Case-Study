@@ -24,10 +24,35 @@ To achieve this goal, the team aims to understand the usage patterns of casual r
 6. Your top three recommendations based on your analysis
 
 ### Business Task
-- Design marketing strategies aimed at converting casual riders into annual members
+- Design marketing strategies aimed at converting casual riders into annual members.
 - I have been assigned the following question to answer, which will guide the future marketing program: **How do annual members and casual riders use Cyclistic bikes differently?**
 
+## Prepare
 ### Data Sources
 Cyclistic's historical trip data, specifically covering the period from January 2023 to December 2023, will be used for this analysis. The trip data has been obtained from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement).
 
 _This is public data that you can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes._
+
+### Data Preparation
+- CSV trip data from Jan 2023 to Dec 2023 ('202301-divvy-tripdata.zip' - '202312-divvy-tripdata.zip') are downloaded from the [link above](https://divvy-tripdata.s3.amazonaws.com/index.html) and uploaded to Google Cloud Storage.
+  > Files cannot be directly uploaded to Google BigQuery tables because the files exceed the 100MB size limit.
+- Files are then imported into Google BigQuery for data processing and cleaning using SQL.
+- After thoroughly examining each individual table's schema to ensure consistent data types, all 12 tables were successfully combined into a single consolidated table named `combined_data`.
+
+  |Field name|Type|Mode|
+  |----------|----|----|
+  |ride_id|STRING|NULLABLE|
+  |rideable_type|STRING|NULLABLE|
+  |started_at|TIMESTAMP|NULLABLE|
+  |ended_at|TIMESTAMP|NULLABLE|
+  |start_station_name|STRING|NULLABLE|
+  |start_station_id|STRING|NULLABLE|
+  |end_station_name|STRING|NULLABLE|
+  |end_station_id|STRING|NULLABLE|
+  |start_lat|FLOAT|NULLABLE|
+  |stat_lng|FLOAT|NULLABLE|
+  |end_lat|FLOAT|NULLABLE|
+  |end_lng|FLOAT|NULLABLE|
+  |member_casual|STRING|NULLABLE|
+
+- Relevent SQL Query: [Combining Data] ()
