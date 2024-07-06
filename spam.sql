@@ -64,7 +64,7 @@ SELECT
 FROM `casestudy1-427906.tripdata.filtered_data`;
 ss
 
--- endure no null values in each column
+-- ensure no null values in each column
 SELECT
   COUNT(ride_id) - COUNT(rideable_type) AS rideable_type,
   COUNT(ride_id) - COUNT(started_at) AS started_at,
@@ -82,3 +82,31 @@ SELECT
   COUNT(ride_id) - COUNT(day_of_week) AS day_of_week,
   COUNT(ride_id) - COUNT(hour_of_day) AS hour_of_day,
 FROM `casestudy1-427906.tripdata.filtered_data`;
+ss
+
+
+-- data analysis
+
+-- rideable_type
+SELECT member_casual, rideable_type, COUNT(ride_id) AS no_of_trips
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY member_casual, rideable_type
+ORDER BY member_casual;
+
+-- number of trips monthly
+SELECT member_casual, month, COUNT(ride_id) AS monthly_trips
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY member_casual, month
+ORDER BY member_casual;
+
+-- number of trips daily
+SELECT member_casual, day_of_week, COUNT(ride_id) AS daily_trips
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY member_casual, day_of_week
+ORDER BY member_casual;
+
+-- number of trips hourly
+SELECT member_casual, hour_of_day, COUNT(ride_id) AS hourly_trips
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY member_casual, hour_of_day
+ORDER BY member_casual, hour_of_day;v
