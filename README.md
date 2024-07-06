@@ -55,4 +55,7 @@ _This is public data that you can use to explore how different customer types ar
   |end_lng|FLOAT|NULLABLE|
   |member_casual|STRING|NULLABLE|
 
-- Relevent SQL Query: [Combining Data] ()
+- Relevent SQL Query: [Combining Data]().
+
+## Process
+
