@@ -109,4 +109,36 @@ ORDER BY member_casual;
 SELECT member_casual, hour_of_day, COUNT(ride_id) AS hourly_trips
 FROM `casestudy1-427906.tripdata.filtered_data`
 GROUP BY member_casual, hour_of_day
-ORDER BY member_casual, hour_of_day;v
+ORDER BY member_casual, hour_of_day;
+
+-- average ride duration monthly
+SELECT member_casual, month, AVG(ride_length) AS avg_monthly
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY member_casual, month
+ORDER BY member_casual;
+
+-- average ride duration daily
+SELECT member_casual, day_of_week, AVG(ride_length) AS avg_daily
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY member_casual, day_of_week
+ORDER BY member_casual;
+
+-- average ride duration hourly
+SELECT member_casual, hour_of_day, AVG(ride_length) AS avg_hourly
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY member_casual, hour_of_day
+ORDER BY member_casual, hour_of_day;
+
+-- starting locations
+SELECT start_station_name, member_casual,
+  AVG(start_lat) AS start_lat, AVG(start_lng) AS start_lng, -- despite having same station names, they have slightly different start_lat and start_lng, hence use AVG
+  COUNT(ride_id) AS total_trips
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY start_station_name, member_casual;
+
+-- ending location
+SELECT end_station_name, member_casual,
+  AVG(end_lat) AS end_lat, AVG(end_lng) AS end_lng, -- -- despite having same station names, they have slightly different end_lat and end_lng, hence use AVG
+  COUNT(ride_id) AS total_trips
+FROM `casestudy1-427906.tripdata.filtered_data`
+GROUP BY end_station_name, member_casual;
