@@ -158,3 +158,10 @@ Casual riders exhibit an increased usage of bike-sharing during the weekends. Tr
 Member riders exhibit an increased ridership during the weekdays. Trip durations are also generally shorter than of casual riders. The clear peaks in ridership during morning and afternoon rush hours indicates that member riders rely on bike-sharing for daily transportation needs. Additionally the dispersed starting trip location, often near residential areas, reinforces the use of bike-sharing for commuting purposes.
   
 These insights indicate that casual riders primarily use bike-sharing for leisure and exploration, while member riders rely on it for daily transportation needs.
+
+### Recommendations
+Top 3 recommendations based on my analysis to increase number of annual memberships.
+  
+|Offering Discounts| Provide discounts or incentives for annual memberships, particularly during the winter months (January-March and December) when ridership significantly drops. These discounts or incentives can encourage more riders to sign up for memberships, alleviating concerns about their money being wasted during the less favorable winter period.|
+|Partnerships| Partner with locally based Multinational Corporations (MNCs) to offer discounted memberships for their employees to promote bike-sharing as a convenient and sustainable commuting option, fostering a healthier and environmentally friendly transportation choice.|
+|Organize Events| Host community events, bike tours, and family-friendly rides to attract casual riders and convert them into members.|
