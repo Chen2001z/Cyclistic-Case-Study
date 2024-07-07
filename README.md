@@ -64,6 +64,13 @@ _This is public data that you can use to explore how different customer types ar
 - Relevent SQL Query: [Data Cleaning]()
 - After examining the '*combined_data*' table, we identified that `ride_id` serves as the primary key. We can proceed to verify that each `ride_id` has exactly 16 characters and ensure there are no duplicate entries.
   ```
+  SELECT
+  COUNT(*) - COUNT(ride_id) AS ride_id
+  FROM `casestudy1-427906.tripdata.combined_data`
+  ```
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/3f88ee86-77a3-4ab2-85b2-bb4d43f98829)
+  
+  ```
   SELECT COUNT(ride_id) AS ride_count
   FROM `casestudy1-427906.tripdata.combined_data`
   WHERE LENGTH(ride_id) != 16;
