@@ -135,7 +135,7 @@ _This is public data that you can use to explore how different customer types ar
 - **Daily Trips**: Casual riders peak on weekends, whereas member ridership is highest midweek and lowest on weekends. Casual riders likely prefer cycling for recreational activities, while members use bikes for commuting to and from workplaces or schools.
 - **Hourly Trips**: Casual ridership peaks around 5 pm, indicating a preference for daytime rides. Member riders peak between 6-8 am and 3-5 pm, suggesting use for commuting as it aligns with typical morning and afternoon peak travel times. 
 
-  #### Average Trip Durations
+  #### Average Trip Durations by Rider Type
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/9438b3a3-8911-4882-8833-2531fd626014)
 
 - **Observations**: Casual riders have a longer ride duration compared to member riders.
@@ -143,7 +143,7 @@ _This is public data that you can use to explore how different customer types ar
 - **Daily**: Casual riders have longer ride durations, especially on weekends. This suggests leisurely rides, whereas member riders have shorter, more purpose-driven rides likely due to using it as a means of commuting.
 - **Hourly**: Graph indicates a decrease in ride duration during early morning hours (3-5 am), and a significant peak in ride duration between 10 am - 2 pm for casual riders., while member riders maintain stable durations throughout the day.
 
-  #### Trip Location
+  #### Trip Location by Rider Type
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/dfbd9209-5848-4b80-883e-773ea54b8def)
   
 - **Casual Riders**: Typically start their bike trips at stations located near the harbor, coast, or rivers. This suggests that casual riders prefer starting their journeys at scenic locations and tourist attractions, reinforcing the idea that they use bike-sharing services primarily for leisure and exploration.
