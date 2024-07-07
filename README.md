@@ -61,7 +61,7 @@ _This is public data that you can use to explore how different customer types ar
   |member_casual|STRING|NULLABLE|
 
 ### Data Cleaning
-- Relevant SQL Query: [Data Cleaning]()
+- Relevant SQL Query: [Data Cleaning](https://github.com/Chen2001z/Cyclistic-Case-Study/blob/main/2.%20Data%20Cleaning.sql)
 - After examining the '*combined_data*' table, we identified that `ride_id` serves as the primary key. We can proceed to verify that each `ride_id` has exactly 16 characters and ensure there are no duplicate entries.
   ```
   SELECT
