@@ -1,4 +1,4 @@
--- ride_id is primary key
+b-- ride_id is primary key
 SELECT
 COUNT(*) - COUNT(ride_id) AS ride_id
 FROM `casestudy1-427906.tripdata.combined_data`
