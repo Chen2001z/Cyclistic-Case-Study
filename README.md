@@ -42,7 +42,7 @@ _This is public data that you can use to explore how different customer types ar
 ## Process
 ### Combining Data
 - Relevent SQL Query: [Combining Data]()
-- After thoroughly examining each individual table's schema to ensure consistent data types, all 12 tables were successfully combined into a single consolidated table named `combined_data`.
+- After thoroughly examining each individual table's schema to ensure consistent data types, all 12 tables were successfully combined into a single consolidated table named '*combined_data*'.
 
   |Field name|Type|Mode|
   |----------|----|----|
@@ -61,4 +61,21 @@ _This is public data that you can use to explore how different customer types ar
   |member_casual|STRING|NULLABLE|
 
 ### Data Cleaning
-- After examining `combined_data`, we identified that 
+- Relevent SQL Query: [Data Cleaning]()
+- After examining the '*combined_data*' table, we identified that `ride_id` serves as the primary key. We can proceed to verify that each `ride_id` has exactly 16 characters and ensure there are no duplicate entries.
+  ```
+  SELECT COUNT(ride_id) AS ride_count
+  FROM `casestudy1-427906.tripdata.combined_data`
+  WHERE LENGTH(ride_id) != 16;
+  ```
+  Result: 0
+  ```
+  SELECT ride_id,
+    COUNT(*) AS duplicate_ride_id
+  FROM `casestudy1-427906.tripdata.combined_data`
+  GROUP BY ride_id
+  HAVING
+    COUNT(*) > 1;
+  ```
+  No result
+- Next, we identify the number of NULL values in each of the remaining 12 colummns.
