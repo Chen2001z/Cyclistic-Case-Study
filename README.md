@@ -1,13 +1,13 @@
 # Cyclistic-Case-Study
 
 ## Table of Contents
-1. [Introduction]
-2. [Ask]
-3. [Prepare]
-4. [Process]
-5. [Analyze]
-6. [Share]
-7. [Act]
+1. [Introduction](https://github.com/Chen2001z/Cyclistic-Case-Study/blob/main/README.md#introduction)
+2. [Ask](https://github.com/Chen2001z/Cyclistic-Case-Study/tree/main?tab=readme-ov-file#ask)
+3. [Prepare](https://github.com/Chen2001z/Cyclistic-Case-Study/tree/main?tab=readme-ov-file#prepare)
+4. [Process](https://github.com/Chen2001z/Cyclistic-Case-Study/tree/main?tab=readme-ov-file#process)
+5. [Analyze](https://github.com/Chen2001z/Cyclistic-Case-Study/tree/main?tab=readme-ov-file#analyze)
+6. [Share](https://github.com/Chen2001z/Cyclistic-Case-Study/tree/main?tab=readme-ov-file#share)
+7. [Act](https://github.com/Chen2001z/Cyclistic-Case-Study/tree/main?tab=readme-ov-file#act)
 
 ## Introduction
 Cylistic, a bike-share company in Chicago, operates a network of over 5800 bicycles and 600 docking stations. The marketing analyst team at Cyclistic is focused on increasing the number of annual memberships, which is seen as crucial for the company's future success.
