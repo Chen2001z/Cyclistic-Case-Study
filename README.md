@@ -120,7 +120,7 @@ _This is public data that you can use to explore how different customer types ar
     
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/48bf9403-fb47-42ad-841c-e8fbbe8ec0d2)
 
-  - Note that for all visualizations, casual riders are denoted with a lighter shade of brown compared to that of member riders.
+- Note that for all visualizations, casual riders are denoted with a lighter shade of brown compared to that of member riders.
   
   #### Rideable Types
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/3d130b4a-6a23-4a9d-a962-01248af1c45d)
