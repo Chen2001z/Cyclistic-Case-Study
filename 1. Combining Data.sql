@@ -1,4 +1,4 @@
--- Combining Data
+b-- Combining Data
 
 CREATE TABLE `casestudy1-427906.tripdata.combined_data` AS
 SELECT *
