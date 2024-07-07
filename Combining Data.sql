@@ -1,4 +1,5 @@
--- combing data
+-- Combining Data
+
 CREATE TABLE `casestudy1-427906.tripdata.combined_data` AS
 SELECT *
 FROM `casestudy1-427906.tripdata.202301`
