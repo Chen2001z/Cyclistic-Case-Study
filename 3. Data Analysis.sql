@@ -1,4 +1,4 @@
-b-- Distribution of rideable types
+-- Distribution of rideable types
 SELECT member_casual, rideable_type, COUNT(ride_id) AS no_of_trips
 FROM `casestudy1-427906.tripdata.filtered_data`
 GROUP BY member_casual, rideable_type
