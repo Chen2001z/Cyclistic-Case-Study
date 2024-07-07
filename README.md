@@ -68,7 +68,7 @@ _This is public data that you can use to explore how different customer types ar
   FROM `casestudy1-427906.tripdata.combined_data`
   WHERE LENGTH(ride_id) != 16;
   ```
-  Result: 0
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/2b031a7c-b96d-43d2-8bf8-4ea8de4290ba)
   
   ```
   SELECT ride_id,
@@ -78,6 +78,7 @@ _This is public data that you can use to explore how different customer types ar
   HAVING
     COUNT(*) > 1;
   ```
-  No result
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/2b031a7c-b96d-43d2-8bf8-4ea8de4290ba)
+  
 - Next, we identify the number of NULL values in each of the remaining 12 colummns.
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/886267e4-3039-4f9c-add1-fe1bab1aabf7)
