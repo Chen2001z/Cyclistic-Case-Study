@@ -92,3 +92,16 @@ _This is public data that you can use to explore how different customer types ar
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/cf1ee0fe-d91f-4beb-b5b9-35322e7f58fb)
 
 - Subsequently, we will manipulate the data by creatinging a new table '*filtered_data*' to include the following new columns: `ride_length`, `month`, `day_of_week`, and `hour_of_day`. We will remove all rows that contain NULL values in any of the initial 12 columns. Additionally, rows where `ride_length` exceeds 1440 minutes (more than 1 day) or is less than 1 minute will also be removed.
+- Ensure that the `month`, `day_of_week`, and `hour_of_day` columns contain the correct number of distinct values: 12 for months, 7 for days of the week, and 24 for hours of the day, respectively.
+  ```
+  SELECT
+    COUNT(DISTINCT month) AS no_of_months,
+    COUNT(DISTINCT day_of_week) AS day_of_week,
+    COUNT(DISTINCT hour_of_day) AS no_of_hours,
+  FROM `casestudy1-427906.tripdata.filtered_data`;
+  ```
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/c2c93bcb-bef2-4451-bc83-71139d5580cb)
+
+- Ensure '*filtered_data*' has no NULL values in each of the 16 columns.
+
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/598686bc-f163-4159-b5b7-7ceb5e79ac27)
