@@ -116,7 +116,9 @@ _This is public data that you can use to explore how different customer types ar
 - Individual SQL tables are uploaded into Tableau for visualization and the resulting graphs proide isual insights to assist in analysis.
 - Note that for all visualizations, casual riders are denoted with a lighter shade of brown compared to that of member riders.
 - When creating visualizations for '**Starting Trip Locations**', we noted that `Start_Lng` is of 'Number (decimal)' type, hence it is converted to 'Geographic - Longitude'
+  
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/43110d5b-c621-42d8-a14d-c4be6ca49fad)
+    
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/48bf9403-fb47-42ad-841c-e8fbbe8ec0d2)
   
   #### Rideable Types
