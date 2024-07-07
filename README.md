@@ -41,7 +41,7 @@ _This is public data that you can use to explore how different customer types ar
 
 ## Process
 ### Combining Data
-- Relevent SQL Query: [Combining Data]()
+- Relevant SQL Query: [Combining Data]()
 - After thoroughly examining each individual table's schema to ensure consistent data types, all 12 tables were successfully combined into a single consolidated table named '*combined_data*'.
 
   |Field name|Type|Mode|
@@ -61,7 +61,7 @@ _This is public data that you can use to explore how different customer types ar
   |member_casual|STRING|NULLABLE|
 
 ### Data Cleaning
-- Relevent SQL Query: [Data Cleaning]()
+- Relevant SQL Query: [Data Cleaning]()
 - After examining the '*combined_data*' table, we identified that `ride_id` serves as the primary key. We can proceed to verify that each `ride_id` has exactly 16 characters and ensure there are no duplicate entries.
   ```
   SELECT
@@ -105,4 +105,16 @@ _This is public data that you can use to explore how different customer types ar
 - Ensure '*filtered_data*' has no NULL values in each of the 16 columns.
 
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/598686bc-f163-4159-b5b7-7ceb5e79ac27)
-
+  
+## Analyze
+### Data Analysis
+- Relevant SQL Query: [Data Analysis]()
+- Intresting data are queried to obtain necessary tables that highlights the differences in bike usages between 'casual' and 'member riders' for subsequent data visualisation.
+  
+- ## data Visualization
+- Individual SQL tables are uploaded into Tableau for visualization and the resulting graphs proide isual insights to assist in analysis.
+  
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/8f6e2b99-334b-44d3-bac9-9be547de5a7c)
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/878ca9c3-2228-4b21-ae1c-5ba4f9e57dae)
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/9438b3a3-8911-4882-8833-2531fd626014)
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/dfbd9209-5848-4b80-883e-773ea54b8def)
