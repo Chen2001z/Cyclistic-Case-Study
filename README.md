@@ -139,7 +139,7 @@ _This is public data that you can use to explore how different customer types ar
   #### Average Trip Durations
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/9438b3a3-8911-4882-8833-2531fd626014)
 
-- **Observations**: Generally, member riders have a longer ride duration compared to casual riders.
+- **Observations**: Casual riders have a longer ride duration compared to member riders.
 - **Monthly**: Ride duration increases from January to July/August, then declines, likely to be influenced by weather conditions.
 - **Daily**: Casual riders have longer ride durations, especially on weekends. This suggests leisurely rides, whereas member riders have shorter, more purpose-driven rides likely due to using it as a means of commuting.
 - **Hourly**: graph shows a decrease in ride duration during early morning hours (3-5 am), and a significant peak in ride duration between 10 am - 2 pm for casual riders., while member riders maintain stable durations throughout the day.
