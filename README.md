@@ -35,11 +35,13 @@ _This is public data that you can use to explore how different customer types ar
 
 ### Data Preparation
 - CSV trip data from Jan 2023 to Dec 2023 ('202301-divvy-tripdata.zip' - '202312-divvy-tripdata.zip') are downloaded from the [link above](https://divvy-tripdata.s3.amazonaws.com/index.html) and uploaded to Google Cloud Storage.
+  > [!NOTE]
   > Files cannot be directly uploaded to Google BigQuery tables because the files exceed the 100MB size limit.
 - Files are then imported into Google BigQuery for data processing and cleaning using SQL.
 
 ## Process
-- Relevent SQL Query: [Combining Data]().
+### Combining Data
+- Relevent SQL Query: [Combining Data]()
 - After thoroughly examining each individual table's schema to ensure consistent data types, all 12 tables were successfully combined into a single consolidated table named `combined_data`.
 
   |Field name|Type|Mode|
@@ -57,3 +59,6 @@ _This is public data that you can use to explore how different customer types ar
   |end_lat|FLOAT|NULLABLE|
   |end_lng|FLOAT|NULLABLE|
   |member_casual|STRING|NULLABLE|
+
+### Data Cleaning
+- After examining `combined_data`, we identified that 
