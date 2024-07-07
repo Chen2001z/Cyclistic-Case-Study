@@ -34,9 +34,25 @@ Cyclistic's historical trip data, specifically covering the period from January 
 _This is public data that you can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes._
 
 ### Data Preparation
-- CSV trip data from Jan 2023 to Dec 2023 ('202301-divvy-tripdata.zip' - '202312-divvy-tripdata.zip') are downloaded from the [link above](https://divvy-tripdata.s3.amazonaws.com/index.html) and uploaded to Google Cloud Storage.
+- CSV trip data from Jan 2023 to Dec 2023 are downloaded from the [link above](https://divvy-tripdata.s3.amazonaws.com/index.html) and uploaded to Google Cloud Storage.
+  > The following data sources are used for this case study:
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
+    202301-divvy-tripdata.zip
   > Files cannot be directly uploaded to Google BigQuery tables because the files exceed the 100MB size limit.
 - Files are then imported into Google BigQuery for data processing and cleaning using SQL.
+
+## Process
+- Relevent SQL Query: [Combining Data]().
 - After thoroughly examining each individual table's schema to ensure consistent data types, all 12 tables were successfully combined into a single consolidated table named `combined_data`.
 
   |Field name|Type|Mode|
@@ -54,8 +70,3 @@ _This is public data that you can use to explore how different customer types ar
   |end_lat|FLOAT|NULLABLE|
   |end_lng|FLOAT|NULLABLE|
   |member_casual|STRING|NULLABLE|
-
-- Relevent SQL Query: [Combining Data]().
-
-## Process
-
