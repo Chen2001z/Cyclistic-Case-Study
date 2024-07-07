@@ -96,12 +96,13 @@ _This is public data that you can use to explore how different customer types ar
   ```
   SELECT
     COUNT(DISTINCT month) AS no_of_months,
-    COUNT(DISTINCT day_of_week) AS day_of_week,
+    COUNT(DISTINCT day_of_week) AS no_of_days,
     COUNT(DISTINCT hour_of_day) AS no_of_hours,
   FROM `casestudy1-427906.tripdata.filtered_data`;
   ```
-  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/c2c93bcb-bef2-4451-bc83-71139d5580cb)
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/7b2db149-deab-49d4-8979-6114b6e776c1)
 
 - Ensure '*filtered_data*' has no NULL values in each of the 16 columns.
 
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/598686bc-f163-4159-b5b7-7ceb5e79ac27)
+
