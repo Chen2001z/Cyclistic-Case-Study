@@ -69,6 +69,7 @@ _This is public data that you can use to explore how different customer types ar
   WHERE LENGTH(ride_id) != 16;
   ```
   Result: 0
+  
   ```
   SELECT ride_id,
     COUNT(*) AS duplicate_ride_id
