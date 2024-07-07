@@ -114,7 +114,7 @@ _This is public data that you can use to explore how different customer types ar
 - ## data Visualization
 - Individual SQL tables are uploaded into Tableau for visualization and the resulting graphs proide isual insights to assist in analysis.
   
-  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/8f6e2b99-334b-44d3-bac9-9be547de5a7c)
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/3d130b4a-6a23-4a9d-a962-01248af1c45d)
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/878ca9c3-2228-4b21-ae1c-5ba4f9e57dae)
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/9438b3a3-8911-4882-8833-2531fd626014)
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/dfbd9209-5848-4b80-883e-773ea54b8def)
