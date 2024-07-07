@@ -35,9 +35,9 @@ _This is public data that you can use to explore how different customer types ar
 
 ### Data Preparation
 - CSV trip data from Jan 2023 to Dec 2023 ('202301-divvy-tripdata.zip' - '202312-divvy-tripdata.zip') are downloaded from the [link above](https://divvy-tripdata.s3.amazonaws.com/index.html) and uploaded to Google Cloud Storage.
-> [!NOTE]
-> Files cannot be directly uploaded to Google BigQuery tables because the files exceed the 100MB size limit.
 - Files are then imported into Google BigQuery for data processing and cleaning using SQL.
+> [!NOTE]
+> This set of files cannot be directly uploaded to Google BigQuery tables because the files exceed the 100MB size limit.
 
 ## Process
 ### Combining Data
