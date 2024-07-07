@@ -41,7 +41,7 @@ _This is public data that you can use to explore how different customer types ar
 
 ## Process
 ### Combining Data
-- Relevant SQL Query: [Combining Data]()
+- Relevant SQL Query: [Combining Data](https://github.com/Chen2001z/Cyclistic-Case-Study/blob/main/1.%20Combining%20Data.sql)
 - After thoroughly examining each individual table's schema to ensure consistent data types, all 12 tables were successfully combined into a single consolidated table named '*combined_data*'.
 
   |Field name|Type|Mode|
