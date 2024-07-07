@@ -78,7 +78,7 @@ _This is public data that you can use to explore how different customer types ar
   HAVING
     COUNT(*) > 1;
   ```
-  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/2b031a7c-b96d-43d2-8bf8-4ea8de4290ba)
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/f11a3f83-db90-4f5d-b374-eecdc1df59f5)
   
 - Next, we identify the number of NULL values in each of the remaining 12 colummns.
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/886267e4-3039-4f9c-add1-fe1bab1aabf7)
