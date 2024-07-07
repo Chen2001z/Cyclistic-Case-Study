@@ -126,15 +126,15 @@ _This is public data that you can use to explore how different customer types ar
 - Secondly, we analyze the number of trips taken by casual and member riders.
 - Based on monthly, weekly, and hourly trip counts, it's evident that member riders consistently use the service more frequently than casual riders.
   
-- From the 'Monthly Trips' graph, we observe a steady rise in ridership from January to July/August, followed by a notable decline. Potential reasons include:
+- From the '**Monthly Trips**' graph, we observe a steady rise in ridership from January to July/August, followed by a notable decline. Potential reasons include:
   - Harsh winter conditions in January/February and December likely discourage cycling, with ridership increasing as temperatures warm up from March onward.
   - Peak ridership in July and August among both casual and member riders may be attributed to summer holidays.
     
-- From the 'Daily Trips' graph, we observed that casual riders peak on weekends, with a noticeable decrease during weekdays. Conversely, member ridership is highest midweek and lowest on weekends. Possibilities includes:
+- From the '**Daily Trips**' graph, we observed that casual riders peak on weekends, with a noticeable decrease during weekdays. Conversely, member ridership is highest midweek and lowest on weekends. Possibilities includes:
   - Casual riders' preference for cycling as part of recreational activities or outings.
   - Members primarily use bikes for commuting to and from workplaces or schools, aligning with typical weekday travel patterns.
   
-- Analyzing the graph for 'Hourly Trips', we observe distinct patterns for both casual and member riders:
+- Analyzing the graph for '**Hourly Trips**', we observe distinct patterns for both casual and member riders:
   - Casual ridership shows a gradual increase from 5 am onwards, peaking at around 5 pm, followed by a sharp decline. This pattern suggests that casual riders prefer cycling during daytime hours, possibly for recreational activities or leisurely outings.
   - In contrast, member riders exhibit a different trend with pronounced peaks between 6 am to 8 am and 3 pm to 5 pm. This pattern indicates that members predominantly use bike-sharing for commuting purposes, aligning with typical morning and afternoon peak travel times.
     
@@ -144,12 +144,12 @@ _This is public data that you can use to explore how different customer types ar
 
 - Next, we analyze the average ride durations. Generally, member riders have a longer ride duration per month and per hour of day, whereas casual riders have a longer ride duration per day of week.
 
-- From the ‘Average Monthly Trip Duration’ graph, we observe a similar pattern as the graph of ‘Number of Trips Per Month’, where there is generally a steady increase in average ride duration from January to July/August, followed by a decline.
+- From the ‘**Average Monthly Trip Duration**’ graph, we observe a similar pattern as the graph of ‘Number of Trips Per Month’, where there is generally a steady increase in average ride duration from January to July/August, followed by a decline.
   - This trend is likely influenced by weather and temperature, as favorable conditions from March onwards encourage longer rides, while extreme cold in January, February, and December limits outdoor activities and cycling duration. This trend is likely influenced by weather and temperature, as favorable conditions from March onwards encourage longer rides, while extreme cold in January, February, and December limits outdoor activities and cycling duration.
 
-- The ‘Average Daily Trip Duration’ graph revealed that casual riders consistently have a longer ride duration per day of a week compared to member riders. Additionally, both rider types have longer ride duration during the weekends compared to weekdays. Such an observation could be due to:
-  - Purpose of riding: Casual riders might be using the bikes for leisure and recreational activities, which are unhurried and enjoyable, hence leading to longer ride durations when they explore parks and city attractions. Member riders likely primarily use bikes for the purposes of commuting to work or school, hence their rides are more likely to be direct and time-sensitive, leading to a shorter average trip duration.
-  - Weekends vs weekdays: During the weekends, both rider types have more free time, allowing for longer and more leisurely rides. Contrastingly, on weekdays, member riders’ primary use of bike-sharing is for commuting purposes, and casual riders may also have work or other obligations, hence resulting in shorter trip duration.
+- The ‘**Average Daily Trip Duration**’ graph revealed that casual riders consistently have a longer ride duration per day of a week compared to member riders. Additionally, both rider types have longer ride duration during the weekends compared to weekdays. Such an observation could be due to:
+  - **Purpose of riding**: Casual riders might be using the bikes for leisure and recreational activities, which are unhurried and enjoyable, hence leading to longer ride durations when they explore parks and city attractions. Member riders likely primarily use bikes for the purposes of commuting to work or school, hence their rides are more likely to be direct and time-sensitive, leading to a shorter average trip duration.
+  - **Weekends vs weekdays**: During the weekends, both rider types have more free time, allowing for longer and more leisurely rides. Contrastingly, on weekdays, member riders’ primary use of bike-sharing is for commuting purposes, and casual riders may also have work or other obligations, hence resulting in shorter trip duration.
 
 - An analysis of the ‘Average Hourly Trip Duration’ graph shows a decrease in ride duration during early morning hours (3-5 am), and a significant peak in ride duration between 10 am and 2 pm for casual riders. Member riders on the other hand, maintained a relatively stable average ride duration throughout the day. Possibilities include:
   - Casual riders tend to take longer, more leisure rides during late morning/early afternoon hours, likely for recreational purposes.
@@ -158,5 +158,5 @@ _This is public data that you can use to explore how different customer types ar
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/dfbd9209-5848-4b80-883e-773ea54b8def)
 
 - Finally, the 'Start Location by Rider Type' analysis reveals distinct patterns for casual and member riders, aligning with their respective usage behaviors as mentioned above.
-  - Casual Riders: typically start their bike trips at stations located near the harbor, coast, or rivers. This suggests that casual riders prefer starting their journeys at scenic locations and tourist attractions, reinforcing the idea that they use bike-sharing services primarily for leisure and exploration.
-  - Member Riders: exhibit a more dispersed pattern of start locations, often concentrated in areas with high street density. These locations are likely near their residences, from which they commute to work, school, or other regular destinations. This distribution suggests that member riders use bike-sharing as a practical mode of transportation integrated into their daily routines.
+  - **Casual Riders**: typically start their bike trips at stations located near the harbor, coast, or rivers. This suggests that casual riders prefer starting their journeys at scenic locations and tourist attractions, reinforcing the idea that they use bike-sharing services primarily for leisure and exploration.
+  - **Member Riders**: exhibit a more dispersed pattern of start locations, often concentrated in areas with high street density. These locations are likely near their residences, from which they commute to work, school, or other regular destinations. This distribution suggests that member riders use bike-sharing as a practical mode of transportation integrated into their daily routines.
