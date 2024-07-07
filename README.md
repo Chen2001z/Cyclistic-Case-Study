@@ -162,6 +162,6 @@ These insights indicate that casual riders primarily use bike-sharing for leisur
 ### Recommendations
 Top 3 recommendations based on my analysis to increase number of annual memberships.
   
-|Offering Discounts| Provide discounts or incentives for annual memberships, particularly during the winter months (January-March and December) when ridership significantly drops. These discounts or incentives can encourage more riders to sign up for memberships, alleviating concerns about their money being wasted during the less favorable winter period.|
-|Partnerships| Partner with locally based Multinational Corporations (MNCs) to offer discounted memberships for their employees to promote bike-sharing as a convenient and sustainable commuting option, fostering a healthier and environmentally friendly transportation choice.|
-|Organize Events| Host community events, bike tours, and family-friendly rides to attract casual riders and convert them into members.|
+- **Offering Discounts**: Provide discounts or incentives for annual memberships, particularly during the winter months (January-March and December) when ridership significantly drops. These discounts or incentives can encourage more riders to sign up for memberships, alleviating concerns about their money being wasted during the less favorable winter period.
+- **Partnerships**: Partner with locally based Multinational Corporations (MNCs) to offer discounted memberships for their employees to promote bike-sharing as a convenient and sustainable commuting option, fostering a healthier and environmentally friendly transportation choice.
+- **Organize Events**: Host community events, bike tours, and family-friendly rides to attract casual riders and convert them into members.
