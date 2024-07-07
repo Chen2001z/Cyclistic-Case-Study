@@ -112,7 +112,7 @@ _This is public data that you can use to explore how different customer types ar
 - Intresting data are queried to obtain necessary tables that highlights the differences in bike usages between 'casual' and 'member riders' for subsequent data visualisation.
 
 ## Share
-- ### Data Visualization And Insights
+### Data Visualization And Insights
 - Individual SQL tables are uploaded into Tableau for visualization and the resulting graphs proide isual insights to assist in analysis.
 - Note that for all visualizations, casual riders are denoted with a lighter shade of brown compared to that of member riders.
   #### Rideable Types
