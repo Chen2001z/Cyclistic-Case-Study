@@ -81,4 +81,5 @@ _This is public data that you can use to explore how different customer types ar
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/f11a3f83-db90-4f5d-b374-eecdc1df59f5)
   
 - Next, we identify the number of NULL values in each of the remaining 12 colummns.
+  
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/886267e4-3039-4f9c-add1-fe1bab1aabf7)
