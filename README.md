@@ -124,8 +124,7 @@ _This is public data that you can use to explore how different customer types ar
   #### Trip Counts
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/878ca9c3-2228-4b21-ae1c-5ba4f9e57dae)
 
-- Secondly, we analyze the number of trips taken by casual and member riders.
-- Based on monthly, weekly, and hourly trip counts, it's evident that member riders consistently use the service more frequently than casual riders.
+- Secondly, we analyze the number of trips taken by casual and member riders. Based on monthly, weekly, and hourly trip counts, it's evident that member riders consistently use the service more frequently than casual riders.
   
 - From the '**Monthly Trips**' graph, we observe a steady rise in ridership from January to July/August, followed by a notable decline. Potential reasons include:
   - Harsh winter conditions in January/February and December likely discourage cycling, with ridership increasing as temperatures warm up from March onward.
