@@ -108,7 +108,7 @@ _This is public data that you can use to explore how different customer types ar
   
 ## Analyze
 ### Data Analysis
-- Relevant SQL Query: [Data Analysis]()
+- Relevant SQL Query: [Data Analysis](https://github.com/Chen2001z/Cyclistic-Case-Study/blob/main/3.%20Data%20Analysis.sql)
 - Intresting data are queried to obtain necessary tables that highlights the differences in bike usages between 'casual' and 'member riders' for subsequent data visualisation.
 
 ## Share
