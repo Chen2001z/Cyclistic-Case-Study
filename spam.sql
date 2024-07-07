@@ -1,3 +1,7 @@
+SELECT
+COUNT(*) - COUNT(ride_id) AS ride_id
+FROM `casestudy1-427906.tripdata.combined_data`
+
 -- since ride_id is the primary key, we can check if to ensure that all ride_id has 16 characters and there are no duplicate ride_id
 
 SELECT COUNT(ride_id) AS ride_count
@@ -27,6 +31,7 @@ COUNT(ride_id) - COUNT(start_lat) AS start_lat,
 COUNT(ride_id) - COUNT(start_lng) AS start_lng,
 COUNT(ride_id) - COUNT(end_lat) AS end_lat,
 COUNT(ride_id) - COUNT(end_lng) AS end_lng,
+COUNT(ride_id) - COUNT(member_casual) AS member_casual,
 FROM `casestudy1-427906.tripdata.combined_data`;
 ss
 
@@ -59,7 +64,7 @@ WHERE rideable_type IS NOT NULL  -- remove rows with NULL values
 -- ensure the number of months/days/hours is correct
 SELECT
   COUNT(DISTINCT month) AS no_of_months,
-  COUNT(DISTINCT day_of_week) AS day_of_week,
+  COUNT(DISTINCT day_of_week) AS no_of_days,
   COUNT(DISTINCT hour_of_day) AS no_of_hours,
 FROM `casestudy1-427906.tripdata.filtered_data`;
 ss
@@ -77,6 +82,7 @@ SELECT
   COUNT(ride_id) - COUNT(start_lng) AS start_lng,
   COUNT(ride_id) - COUNT(end_lat) AS end_lat,
   COUNT(ride_id) - COUNT(end_lng) AS end_lng,
+  COUNT(ride_id) - COUNT(member_casual) AS member_casual,
   COUNT(ride_id) - COUNT(ride_length) AS ride_length,
   COUNT(ride_id) - COUNT(month) AS month,
   COUNT(ride_id) - COUNT(day_of_week) AS day_of_week,
