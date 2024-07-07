@@ -89,6 +89,6 @@ _This is public data that you can use to explore how different customer types ar
   
 - Next, we identify the number of NULL values in each of the remaining 12 colummns.
   
-  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/886267e4-3039-4f9c-add1-fe1bab1aabf7)
+  ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/cf1ee0fe-d91f-4beb-b5b9-35322e7f58fb)
 
 - Subsequently, we will manipulate the data by creatinging a new table '*filtered_data*' to include the following new columns: `ride_length`, `month`, `day_of_week`, and `hour_of_day`. We will remove all rows that contain NULL values in any of the initial 12 columns. Additionally, rows where `ride_length` exceeds 1440 minutes (more than 1 day) or is less than 1 minute will also be removed.
