@@ -113,7 +113,7 @@ _This is public data that you can use to explore how different customer types ar
 
 ## Share
 ### Data Visualization And Insights
-- Individual SQL tables are uploaded into Tableau for visualization and the resulting graphs proide isual insights to assist in analysis.
+- Individual SQL tables are uploaded into Tableau for visualization and the resulting graphs provide visual insights to assist in analysis.
 - When creating visualizations for '**Starting Trip Locations**', we noted that `Start_Lng` is of 'Number (decimal)' type, hence it is converted to 'Geographic - Longitude'.
   
   ![](https://github.com/Chen2001z/Cyclistic-Case-Study/assets/170075287/43110d5b-c621-42d8-a14d-c4be6ca49fad)
